@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cat clicker</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="buttons"></div>
+    <div id="cat">
+        <h3 class="cat-name">cat name</h3>
+        <p class="clicks"></p>
+        <img class="cat-image" src="#" alt="cute cat">
+    </div>
+
+    <button class="open-admin">Admin</button>
+
+    <div class="admin hide">
+        <label for="cat-name">Cat Name:
+            <input type="text" name="cat-name" class="new-cat-name">
+        </label>
+        <label for="cat-src">URL:
+            <input type="text" name="cat-src" class="new-cat-src">
+        </label>
+        <label for="click-count" >Number of clicks:
+            <input class="new-cat-clicks" type="number">
+        </label>
+        <button class="update-cat">Update</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

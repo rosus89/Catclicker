@@ -1,0 +1,17 @@
+#cats {
+    display: flex;
+}
+.admin {
+    display: flex;
+}
+.admin label{
+    display: block;
+    width:100%;
+}
+input {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
